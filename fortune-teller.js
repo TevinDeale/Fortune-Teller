@@ -12,7 +12,7 @@ const messages = fs.readFileSync('fortunes.txt', 'utf-8').split('\n');
 let random = Math.ceil(Math.random()*messages.length);
 
 // Prints fortune to console.
-figlet("Fortunes", function (err, data) {
+figlet("  Fortunes", function (err, data) {
     if (err) {
       console.log("Something went wrong...");
       console.dir(err);
@@ -21,7 +21,7 @@ figlet("Fortunes", function (err, data) {
     console.log(''); console.log('');
     console.log(data);
     console.log(' ');
-    console.log(messages[random]);
+    console.log('***|| ' + messages[random] + ' ||***');
     console.log(''); console.log('');
   });
 
