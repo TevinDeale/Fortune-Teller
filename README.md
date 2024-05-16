@@ -1,5 +1,5 @@
 # Fortune-Teller
-Javascript program that returns a fortune for the user. 
+Javascript program that returns a fortune for the user in the command line.
 
 example output: 
 
